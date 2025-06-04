@@ -4,8 +4,6 @@ function App() {
     <>
     <New1/>
     </>
-    
-
   )
 }
 export default App
