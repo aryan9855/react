@@ -8,12 +8,12 @@ function useCurrencyInfo(currency){
              .then((res) => res.json())
              .then((res) => setData(res [currency] ) )
              console.log(data)
-     } , [currency])
+     } , [currency])//[] ke andar dependency array hota hai, jab bhi currency change hoga tab ye chalega
      console.log(data)
      return data
     }
 
-    export default useCurrencyInfo  // line 3 to 16 how to make custon hook
+    export default useCurrencyInfo  // this file how to make custon hook
 
 
 
