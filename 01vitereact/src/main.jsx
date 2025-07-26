@@ -14,6 +14,10 @@ function MyApp(){
 
 createRoot(document.getElementById('root')).
 render(
+<>
+    <App/>
+    <MyApp/>
 
-   <MyApp/>
+</>
+   
 )
