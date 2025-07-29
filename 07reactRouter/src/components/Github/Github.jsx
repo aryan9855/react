@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+ import React, { useEffect, useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 function Github() {
     const data = useLoaderData()
@@ -8,7 +8,7 @@ function Github() {
     //     .then(response =>response.json())
     //     .then(data =>{
     //         console.log(data);
-    //         setData(data)
+     //         setData(data)
     //     })
     // },[])
   return (
